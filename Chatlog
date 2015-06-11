@@ -1,0 +1,5 @@
+function OnPlayerChat(args)
+	print(args.player, args.text)
+end
+
+Event:Subscribe("Playerchat", OnPlayerChat")
